@@ -1,5 +1,6 @@
 var side = 1;
 var adminmode = false;
+const qoutecon = document.getElementById('quotecontainer');
 var admin = document.getElementById("admin");
 var acht = document.getElementById("acht");
 var faq = document.getElementById("faq");
@@ -19,7 +20,7 @@ window.addEventListener("load", () => {
 
 // Liste deiner Termine (chronologisch sortiert)
 let eventDates = [
-    new Date("17 April, 2026 13:40:00").getTime(),
+    new Date("24 April, 2026 13:40:00").getTime(),
     new Date("8 May, 2026 19:30:00").getTime(),
     new Date("9 May, 2026 19:30:00").getTime(),
     new Date("10 May, 2026 16:00:00").getTime()
@@ -100,10 +101,15 @@ const cast = [
     {order: "16", name: "Carl/Ana", rolle: "Kneipenbesitzer", info:  "Der Kneipenbesitzer ist der Besitzer der Opiumhöhle und sehr freundlich. Er hilft seinen Besuchern beim Rauchen.", img: "bilder/bild.svg" },
     {order: "4", name: "Ana/Milla", rolle: "Aouda", info:  "Aouda wurde von Mister Fogg vor dem verbrennen gerettet. Nach langer Zeit trifft sie Nemea wieder und begleiten zusammen Mister Fogg auf seiner Reise. Am Ende des Stücks heiratet Aouda Mister Fogg.", img: "bilder/bild.svg" },
     {order: "18", name: "", rolle: "Elefanten<br>besitzer", info:  "Der Elefantenbesitzer verkauft seinen Elefanten an die Reisegruppe und führt sie durch Indien.", img: "bilder/bild.svg" },
-    {order: "19", name: "", rolle: "Sargant", info:  "Meine Aufgabe den Zug vor Räubern und anderen gefahren zu schützen. Ich habe 100 Mann die mir dauerhaft bei den Aufgaben helfen. Außerdem habe ich Fogg mit seinem Problem geholfen.", img: "bilder/bild.svg" },
-    {order: "20", name: "", rolle: "Hauptmann", info:  "", img: "bilder/bild.svg" },
+    {order: "19", name: "", rolle: "Sergant", info:  "Meine Aufgabe den Zug vor Räubern und anderen gefahren zu schützen. Ich habe 100 Mann die mir dauerhaft bei den Aufgaben helfen. Außerdem habe ich Fogg mit seinem Problem geholfen.", img: "bilder/bild.svg" },
+    {order: "20", name: "", rolle: "Hauptmann", info:  "Der Hauptmann nimmt Aouda und Nemea gefangen um Lösegeld zu fordern.", img: "bilder/bild.svg" },
     {order: "5", name: "Jonna/Lena", rolle: "Nemea", info: "Nemea ist die Schwester von Aouda nach etwa einem Drittel des Stückes, trifft sie auf die Reisegesellschaft und schließt sich ihr an.", img: "bilder/bild.svg" }
 ];
+
+
+
+
+
 
 /*<img src="${p.img}" class="cast-image" alt="${p.name}">*/
 cast.sort((a, b) => a.order - b.order);
@@ -135,6 +141,7 @@ function changeside(sidetemporary) {
         label.innerHTML = "In 80 Tagen um die Welt";
         acht.style.display = "";
         datenschutz.style.display = "none";
+        qoutecon.style.display = "none";
     }
     if (sidetemporary == 2) {
         roles.style.display = "block";
@@ -150,6 +157,7 @@ function changeside(sidetemporary) {
         label.innerHTML = "Rollen";
         acht.style.display = "none";
         datenschutz.style.display = "none";
+        qoutecon.style.display = "none";
     }
     if (sidetemporary == 3) {
         roles.style.display = "none";
@@ -165,6 +173,7 @@ function changeside(sidetemporary) {
         label.innerHTML = "Infos und FAQ";
         acht.style.display = "none";
         datenschutz.style.display = "none";
+        qoutecon.style.display = "none";
     }
     if (sidetemporary == 4) {
         roles.style.display = "none";
@@ -180,6 +189,7 @@ function changeside(sidetemporary) {
         label.innerHTML = "Story";
         acht.style.display = "none";
         datenschutz.style.display = "none";
+        qoutecon.style.display = "block";
     }
     if (sidetemporary == 5) {
         roles.style.display = "none";
@@ -195,6 +205,7 @@ function changeside(sidetemporary) {
         label.innerHTML = "Galerie";
         acht.style.display = "none";
         datenschutz.style.display = "none";
+        qoutecon.style.display = "none";
     }
     if (sidetemporary == 6) {
         roles.style.display = "none";
@@ -210,6 +221,7 @@ function changeside(sidetemporary) {
         label.innerHTML = "Datenschutz";
         acht.style.display = "none";
         datenschutz.style.display = "block";
+        qoutecon.style.display = "none";
     }
 
 }
@@ -229,8 +241,10 @@ changeside(1);
 
 
 const meineFotos = [
-  { url: 'bilder/bild.svg', info: 'Lorem Ipsum' },
-  { url: 'bilder/titelbildtest.svg', info: 'Custom Titelbild' }
+  { url: 'bilder/titelbildtest.svg', info: 'Custom Titelbild' },
+  { url: 'bilder/qrcode.svg', info: 'QrCode'},
+  {url: 'bilder/plakat1.svg', info: 'Plakat'},
+  {url: 'bilder/bsf.svg', info: 'Plakat'}
 ];
 
 
@@ -275,14 +289,14 @@ const daten = [
   { name: "Lena", rolle: "Nemea", name2:"Jonna" },
   { name: "Angelo", rolle: "Regisseur", name2:"Hannah" },
   { name: "Mika", rolle: "Produzent", name2:"Lena" },
-  { name: "", rolle: "Herr 1", name2:"" },
+  { name: "Robert", rolle: "Herr 1 + 2", name2:"Lennart" },
+  { name: "Filipa + Zena", rolle: "Dame 1 + 2", name2:"Mina + Bela" },
   { name: "Jona", rolle: "Flanagan", name2:"Leander" },
   { name: "Lennart", rolle: "Stuard", name2:"Robert" },
   { name: "Malte", rolle: "Ralph", name2:"Fin" },
   { name: "Noah", rolle: "Sullivan", name2:"Anastasia" },
   { name: "Mavie", rolle: "Dolly", name2:"Lenja" },
   { name: "Mavie", rolle: "Cromarty", name2:"Malte" },
-  { name: "Filipa", rolle: "Dame 1", name2:"" },
   { name: "Richard", rolle: "Bote", name2:"Filipa" },
   { name: "", rolle: "Herr 2", name2:"Mika" },
   { name: "Jonna", rolle: "Konsul", name2:"Jonte" },
@@ -308,7 +322,12 @@ const daten = [
   { name: "", rolle: "Räuber 2", name2:"" },
   { name: "", rolle: "Räuber 3", name2:"" },
   { name: "", rolle: "Räuber 4", name2:"" },
-  { name: "", rolle: "Räuber 5", name2:"" }
+  { name: "", rolle: "Räuber 5", name2:"" },
+  { name: "Niclas", rolle: "Verkäufer 1", name2:"Carla" },
+  { name: "Ana", rolle: "Verkäufer 2", name2:"Leander" },
+  { name: "Mina", rolle: "Verkäufer 3", name2:"Zena" },
+  { name: "Fin", rolle: "Verkäufer 4", name2:"Lenja" },
+  { name: "", rolle: "Räuber 4", name2:"" },
 ];
 
 const tbody = document.querySelector("#tableroles tbody");
@@ -345,4 +364,23 @@ function submit(){
   particleCount: 100,
   spread: 70,
   origin: { y: 0.6 }
+});*/
+
+
+
+/*const qoute = [
+    {text:'', name:'Frau Terhaar'},
+    {text:'', name:''}
+]
+
+
+qoute.forEach(p => {
+    const quotecard = document.createElement('div');
+    quotecard.className = 'quotecard';
+    quotecard.innerHTML = `
+        
+        <div style="padding:15px;text-align:center"><h3><q>${p.text}</q></h3><p><strong style:"text-align:center"></strong></p></div>
+        <div class="name" style="text-align:right;margin-right:20%">${p.name}</div>`;
+    quotecard.onclick = () => card.classList.toggle('active');
+    qoutecon.appendChild(quotecard);
 });*/

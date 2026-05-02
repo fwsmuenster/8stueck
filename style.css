@@ -343,13 +343,13 @@ tr:nth-child(even) {
 }
 
 #faq {
-    background-color: #76b7fc;
-    padding: 10%;
+    background-color: #ffffff;
+    padding: 5%;
     margin-top: 20%;
     text-align: left;
 }
 .faq {
-    background-color: #afd6ff;
+    background-color: #d3d3d3;
     padding: 10%;
     border-radius: 0.5rem;
     margin-bottom: 10%;
@@ -412,4 +412,8 @@ tr:nth-child(even) {
     text-align: left;
     font-size: larger;
     display: none;
+}
+
+#quotecontainer {
+  display: none;
 }

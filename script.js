@@ -100,9 +100,9 @@ const cast = [
     {order: "15", name: "Carl/Richard", rolle: "Wärter", info:  "Der Wärter ist eigentlich unwichtig für das Stück aber trotzdem der Kontakt zur außenwelt für Fogg.", img: "bilder/bild.svg" },
     {order: "16", name: "Carl/Ana", rolle: "Kneipenbesitzer", info:  "Der Kneipenbesitzer ist der Besitzer der Opiumhöhle und sehr freundlich. Er hilft seinen Besuchern beim Rauchen.", img: "bilder/bild.svg" },
     {order: "4", name: "Ana/Milla", rolle: "Aouda", info:  "Aouda wurde von Mister Fogg vor dem verbrennen gerettet. Nach langer Zeit trifft sie Nemea wieder und begleiten zusammen Mister Fogg auf seiner Reise. Am Ende des Stücks heiratet Aouda Mister Fogg.", img: "bilder/bild.svg" },
-    {order: "18", name: "", rolle: "Elefanten<br>besitzer", info:  "Der Elefantenbesitzer verkauft seinen Elefanten an die Reisegruppe und führt sie durch Indien.", img: "bilder/bild.svg" },
-    {order: "19", name: "", rolle: "Sergant", info:  "Meine Aufgabe den Zug vor Räubern und anderen gefahren zu schützen. Ich habe 100 Mann die mir dauerhaft bei den Aufgaben helfen. Außerdem habe ich Fogg mit seinem Problem geholfen.", img: "bilder/bild.svg" },
-    {order: "20", name: "", rolle: "Hauptmann", info:  "Der Hauptmann nimmt Aouda und Nemea gefangen um Lösegeld zu fordern.", img: "bilder/bild.svg" },
+    {order: "18", name: "Zena/Lenja", rolle: "Elefanten<br>besitzer", info:  "Der Elefantenbesitzer verkauft seinen Elefanten an die Reisegruppe und führt sie durch Indien.", img: "bilder/bild.svg" },
+    {order: "19", name: "Jona/", rolle: "Sergant", info:  "Meine Aufgabe den Zug vor Räubern und anderen gefahren zu schützen. Ich habe 100 Mann die mir dauerhaft bei den Aufgaben helfen. Außerdem habe ich Fogg mit seinem Problem geholfen.", img: "bilder/bild.svg" },
+    {order: "20", name: "Noah/Milla", rolle: "Hauptmann", info:  "Der Hauptmann nimmt Aouda und Nemea gefangen um Lösegeld zu fordern.", img: "bilder/bild.svg" },
     {order: "5", name: "Jonna/Lena", rolle: "Nemea", info: "Nemea ist die Schwester von Aouda nach etwa einem Drittel des Stückes, trifft sie auf die Reisegesellschaft und schließt sich ihr an.", img: "bilder/bild.svg" }
 ];
 

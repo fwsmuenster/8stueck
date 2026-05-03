@@ -83,7 +83,7 @@ themeBtn.onclick = () => {
 };
 */
 const cast = [
-    {order: "1", name: "Toni/Charlotte", rolle: "Mister Fogg", info: "Mister Phileas Fogg ist ein reicher englischer Gentleman, der die Wette annimmt, in 80 Tagen um die Erde zu reisen. Auf der Reise lernt er auch seine zukünftige Ehefrau Aouda kennen .", img: "bilder/bild.svg" },
+    {order: "1", name: "Toni/Charlotte", rolle: "Mister Fogg", info: "Mister Phileas Fogg ist ein reicher englischer Gentleman, der die Wette annimmt, in 80 Tagen um die Erde zu reisen. Auf der Reise lernt er auch seine zukünftige Ehefrau Aouda kennen.", img: "bilder/bild.svg" },
     {order: "2", name: "Julian/Jo", rolle: "Passepartout", info: "Ich heiße Jean Passepartout. Den Spitznamen 'Passepartout' habe ich bekommen, weil ich aus jeder Situation herauskomme. Ich bin stolzer und treuer Franzose und bin anpassungsfähig. Außerdem bin ich viel gereist und habe an vielen Stellen gearbeitet. Jetzt arbeite ich beim exzentrischen Mr. Fogg und hoffe, da Ruhe zu finden.", img: "bilder/bild.svg" },
     {order: "6", name: "Noah/Anastasia", rolle: "Sullivan", info: "Hallo, ich bin Sullivan und Mitglied beim Club der Exzentrischen. Ich bin sehr skeptisch was diese verrückte Wette angeht und glaube nicht an das Gelingen und die Fähigkeiten von Mr. Fogg. ", img: "bilder/bild.svg" },
     {order: "17", name: "Noah/Florin", rolle: "Batulcar", info: "Guten Tag ich bin Zirkusdirektor Batulcar. In meinem Zirkus gibt es den kleinsten Affen und den größte Elefanten der Welt.", img: "bilder/bild.svg" },

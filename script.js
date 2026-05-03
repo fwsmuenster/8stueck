@@ -90,7 +90,7 @@ const cast = [
     {order: "0", name: "Angelo/Mika/Hannah/Lena", rolle: "Regisseur/Produzent", info: "Wir drehen eine Serie mit dem Namen: 'In 80 Tagen um die Welt'. Wir erzählen die Szenen weiter, die als Theaterstück schwer umzusetzen sind. Außerdem geben wir kleinere Informationen zu den Hauptdarstellern.", img: "bilder/bild.svg" },
     {order: "3", name: "Jakob/Raphael", rolle: "Fix", info: "Mein Name ist Fix. Ich bin Agent von Scotland Yard und versuche den Bankräuber zu fassen, der die Bank von England ausgeraubt und überfallen hat.", img: "bilder/bild.svg" },
     {order: "7", name: "Niclas/Florin", rolle: "Kapitän Speedy", info: "Kapitän Speedy gehört das alte Schiff 'Henriette' und er bezahlt seine Mannschaft die Heuer nicht pünktlich. Mann müsste ihm schon sehr viel Geld bieten, damit er sein Schiff verkaufen würde. ", img: "bilder/bild.svg" },
-    {order: "8", name: "Robert/Lennart", rolle: "Stuart", info: "Good Morning ich bin Stuart und Mitglied im Club der Exzentrischen. Ich bin verwöhnt und luxussüchtig.", img: "bilder/bild.svg" },
+    {order: "8", name: "Robert/Lennart", rolle: "Stuart", info: "Good Morning, ich bin Stuart und Mitglied im Club der Exzentrischen. Ich bin verwöhnt und luxussüchtig.", img: "bilder/bild.svg" },
     {order: "9", name: "Malte/Fin", rolle: "Ralph", info: "Ralph ist ein Mann aus dem Club der Exzentrischen. Er ist reich und interressiert sich für Neues. Er glaubt nicht, dass Fogg die Reise schafft. Er ist ruhig und spricht sachlich.", img: "bilder/bild.svg" },
     {order: "10", name: "Malte/Mavie", rolle: "Cromarty", info: "Cromarty ist ein Ex-Soldat durch und durch. Er hilft Phileas Fogg und seinen Freunden kurz auf ihrer Reise. Er ist mutig, ruhig und zuverlässig.", img: "bilder/bild.svg" },
     {order: "11", name: "Bela/Lamia", rolle: "Archibald", info: "Archibald Corsican ist ein Amerikaner und wünscht, dem Club 'Die Exzentrischen' beizutreten. Auch er begleitet Mr. Fogg auf seiner Reise und erhofft sich dadurch Chancen, letztlich doch im Club aufgenommen zu werden.  Zuerst wurde er abgelehnt, doch dann will er sich nochmal reinschmuggeln indem er Fogg auf seiner Reise begleitet.", img: "bilder/bild.svg" },
@@ -101,8 +101,8 @@ const cast = [
     {order: "16", name: "Carl/Ana", rolle: "Kneipenbesitzer", info:  "Der Kneipenbesitzer ist der Besitzer der Opiumhöhle und sehr freundlich. Er hilft seinen Besuchern beim Rauchen.", img: "bilder/bild.svg" },
     {order: "4", name: "Ana/Milla", rolle: "Aouda", info:  "Aouda wurde von Mister Fogg vor dem Verbrennen gerettet. Nach langer Zeit trifft sie ihre Schwester Nemea wieder und zusammen begleiten sie Mister Fogg auf seiner Reise.", img: "bilder/bild.svg" },
     {order: "18", name: "Zena/Lenja", rolle: "Elefanten<br>besitzer", info:  "Der Elefantenbesitzer verkauft seinen Elefanten an die Reisegruppe und führt sie durch Indien.", img: "bilder/bild.svg" },
-    {order: "19", name: "Jona/", rolle: "Sergant", info:  "Meine Aufgabe ist es den Zug vor Räubern und anderen Gefahren zu schützen. Ich habe 100 Mann, die mir dauerhaft bei diesen Aufgaben helfen.", img: "bilder/bild.svg" },
-    {order: "20", name: "Noah/Milla", rolle: "Hauptmann", info:  "Der Hauptmann nimmt Aouda und Nemea gefangen und fordert Lösegeld für ihre Freigabe.", img: "bilder/bild.svg" },
+    {order: "19", name: "Jona/", rolle: "Sergant", info:  "Meine Aufgabe ist es, den Zug vor Räubern und anderen Gefahren zu schützen. Ich habe 100 Mann, die mir dauerhaft bei diesen Aufgaben helfen.", img: "bilder/bild.svg" },
+    {order: "20", name: "Noah/Milla", rolle: "Hauptmann", info:  "Der Hauptmann nimmt Aouda und Nemea gefangen und fordert für ihre Freigabe Lösegeld.", img: "bilder/bild.svg" },
     {order: "5", name: "Jonna/Lena", rolle: "Nemea", info: "Nemea ist die Schwester von Aouda. Nach etwa einem Drittel des Stückes trifft sie auf die Reisegesellschaft und schließt sich ihr an.", img: "bilder/bild.svg" }
 ];
 

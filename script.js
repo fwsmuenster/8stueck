@@ -241,10 +241,19 @@ changeside(1);
 
 
 const meineFotos = [
-  { url: 'bilder/titelbildtest.svg', info: 'Custom Titelbild' },
-  { url: 'bilder/qrcode.svg', info: 'QrCode'},
-  {url: 'bilder/plakat1.svg', info: 'Plakat'},
-  {url: 'bilder/bsf.svg', info: 'Plakat'}
+    { url: 'bilder/titelbildtest.svg', info: 'Custom Titelbild' },
+    { url: 'bilder/qrcode.svg', info: 'QrCode'},
+    {url: 'bilder/plakat1.svg', info: 'Plakat'},
+    {url: 'bilder/bsf.svg', info: 'Plakat'},
+    {url:'',info:''}
+    {url:'',info:''}
+    {url:'',info:''}
+    {url:'',info:''}
+    {url:'',info:''}
+    {url:'',info:''}
+    {url:'',info:''}
+    {url:'',info:''}
+    {url:'',info:''}
 ];
 
 

@@ -245,15 +245,11 @@ const meineFotos = [
     { url: 'bilder/qrcode.svg', info: 'QrCode'},
     {url: 'bilder/plakat1.svg', info: 'Plakat'},
     {url: 'bilder/bsf.svg', info: 'Plakat'},
-    {url:'bild1.jpeg',info:''},
+    
     {url:'bild2.jpeg',info:''},
-    {url:'bild3.jpeg',info:''},
-    {url:'bild4.jpeg',info:''},
-    {url:'bild5.jpeg',info:''},
-    {url:'bild6.jpeg',info:''},
-    {url:'bild7.jpeg',info:''},
-    {url:'bild8.jpeg',info:''},
-    {url:'bild9.jpeg',info:''}
+    {url:'bild10.jpeg',info:''},
+    {url:'bild11.jpeg',info:''},
+    {url:'bild12.jpeg',info:''}
 ];
 
 
